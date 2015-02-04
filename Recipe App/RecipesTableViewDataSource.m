@@ -1,3 +1,5 @@
+
+
 //
 //  RecipesTableViewDataSource.m
 //  Recipe App
@@ -7,7 +9,22 @@
 //
 
 #import "RecipesTableViewDataSource.h"
+#import "RARecipes.h"
 
 @implementation RecipesTableViewDataSource
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [RARecipes count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    cell.textLabel.text = [RARecipes titleAtIndex:indexPath.row];
+    cell.imageView.image = [UIImage imageNamed:[RARecipes imageAtIndex:indexPath.row]];
+  
+    return cell;
+}
 
 @end

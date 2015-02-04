@@ -7,8 +7,13 @@
 //
 
 #import "RecipeViewController.h"
+#import "RecipesTableViewDataSource.h"
 
 @interface RecipeViewController ()
+
+@property (nonatomic,strong)UITableView *tableView;
+@property (nonatomic, strong)RecipesTableViewDataSource *dataSource;
+@property (nonatomic, strong)UIImageView *imageView;
 
 @end
 
@@ -16,8 +21,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+  
+    self.dataSource = [RecipesTableViewDataSource new];
+    
+    self.tableView = [[UITableView alloc]initWithFrame:self.view.frame];
+    
+    [self.view addSubview:self.tableView];
+    
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    
+    self.tableView.dataSource = self.dataSource;
+    
+    
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
