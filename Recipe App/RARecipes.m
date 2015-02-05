@@ -77,6 +77,7 @@ static NSString * const ImageKey = @"imageKey";
                         @"Remove strings and slice meat to serve. Use any leftover pork for sandwiches. Makes 12 servings."]
       },
   @{
+      ImageKey : @"GGS.jpg",
       RecipeTitleKey : @"Glorious Glazed Salmon",
       RecipeDescriptionKey : @"As the salmon grills, the tamari sauce and balsamic vinegar glaze caramelizes on the fish, adding color and flavor to the final dish.",
       RecipeIngredientsKey : @[
@@ -92,7 +93,7 @@ static NSString * const ImageKey = @"imageKey";
                         @"Serve the grilled fish with some rice pilaf and asparagus spears, if you like. Makes 4 servings."]
       },
   @{
-      ImageKey : @"GGS.jpg",
+      ImageKey : @"PPP.jpg",
       RecipeTitleKey : @"Paradise Pumpkin Pie",
       RecipeDescriptionKey : @"This extravagant two-layered dessert has a cream cheese base topped with a pumpkin filling and sweet pecans.",
       RecipeIngredientsKey : @[
@@ -114,6 +115,7 @@ static NSString * const ImageKey = @"imageKey";
                         ]
       },
   @{
+      ImageKey : @"CCJ.jpg",
       RecipeTitleKey : @"Chicken & chorizo jambalaya",
       RecipeDescriptionKey : @"A Cajun-inspired rice pot recipe with spicy Spanish sausage, sweet peppers and tomatoes",
       RecipeIngredientsKey : @[
@@ -127,6 +129,7 @@ static NSString * const ImageKey = @"imageKey";
                         @"Stir the chicken back in with the rice, add the tomatoes and stock. Cover and simmer for 20-25 mins until the rice is tender."]
       },
   @{
+      ImageKey : @"UCC.jpg",
       RecipeTitleKey : @"Ultimate chocolate cake",
       RecipeDescriptionKey : @"Indulge yourself with Angela Nilsen's heavenly moist and fudgy chocolate cake - perfect for celebrations - birthdays, weddings, christenings - any excuse!",
       RecipeIngredientsKey : @[
