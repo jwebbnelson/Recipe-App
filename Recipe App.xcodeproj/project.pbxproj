@@ -23,6 +23,11 @@
 		83CE29E01A82CC4D0087C38D /* RARecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CE29DF1A82CC4D0087C38D /* RARecipes.m */; };
 		83CE29E31A82CD1E0087C38D /* RecipesTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CE29E21A82CD1E0087C38D /* RecipesTableViewDataSource.m */; };
 		83CE29E51A82E0B60087C38D /* handG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83CE29E41A82E0B60087C38D /* handG.jpg */; };
+		83CE29E71A82E8D70087C38D /* GGS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83CE29E61A82E8D70087C38D /* GGS.jpg */; };
+		83CE29E91A82E9240087C38D /* PPP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83CE29E81A82E9240087C38D /* PPP.jpg */; };
+		83CE29EB1A82E96A0087C38D /* CCJ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83CE29EA1A82E96A0087C38D /* CCJ.jpg */; };
+		83CE29ED1A82E9B00087C38D /* UCC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83CE29EC1A82E9B00087C38D /* UCC.jpg */; };
+		83CE2AA61A8411AE0087C38D /* PushPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CE2AA51A8411AE0087C38D /* PushPopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,12 @@
 		83CE29E11A82CD1E0087C38D /* RecipesTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesTableViewDataSource.h; sourceTree = "<group>"; };
 		83CE29E21A82CD1E0087C38D /* RecipesTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTableViewDataSource.m; sourceTree = "<group>"; };
 		83CE29E41A82E0B60087C38D /* handG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = handG.jpg; sourceTree = "<group>"; };
+		83CE29E61A82E8D70087C38D /* GGS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GGS.jpg; sourceTree = "<group>"; };
+		83CE29E81A82E9240087C38D /* PPP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PPP.jpg; sourceTree = "<group>"; };
+		83CE29EA1A82E96A0087C38D /* CCJ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CCJ.jpg; sourceTree = "<group>"; };
+		83CE29EC1A82E9B00087C38D /* UCC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UCC.jpg; sourceTree = "<group>"; };
+		83CE2AA41A8411AD0087C38D /* PushPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushPopViewController.h; sourceTree = "<group>"; };
+		83CE2AA51A8411AE0087C38D /* PushPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushPopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,11 +133,17 @@
 				71F67B60192C8D6A00E609F1 /* RAAppDelegate.m */,
 				83CE29DB1A82C31C0087C38D /* RecipeViewController.h */,
 				83CE29DC1A82C31C0087C38D /* RecipeViewController.m */,
-				83CE29E41A82E0B60087C38D /* handG.jpg */,
-				83CE29DE1A82CC4D0087C38D /* RARecipes.h */,
-				83CE29DF1A82CC4D0087C38D /* RARecipes.m */,
+				83CE2AA41A8411AD0087C38D /* PushPopViewController.h */,
+				83CE2AA51A8411AE0087C38D /* PushPopViewController.m */,
 				83CE29E11A82CD1E0087C38D /* RecipesTableViewDataSource.h */,
 				83CE29E21A82CD1E0087C38D /* RecipesTableViewDataSource.m */,
+				83CE29DE1A82CC4D0087C38D /* RARecipes.h */,
+				83CE29DF1A82CC4D0087C38D /* RARecipes.m */,
+				83CE29E41A82E0B60087C38D /* handG.jpg */,
+				83CE29E61A82E8D70087C38D /* GGS.jpg */,
+				83CE29E81A82E9240087C38D /* PPP.jpg */,
+				83CE29EA1A82E96A0087C38D /* CCJ.jpg */,
+				83CE29EC1A82E9B00087C38D /* UCC.jpg */,
 				71F67B62192C8D6A00E609F1 /* Images.xcassets */,
 				71F67B57192C8D6A00E609F1 /* Supporting Files */,
 			);
@@ -238,9 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83CE29EB1A82E96A0087C38D /* CCJ.jpg in Resources */,
+				83CE29ED1A82E9B00087C38D /* UCC.jpg in Resources */,
 				71F67B5B192C8D6A00E609F1 /* InfoPlist.strings in Resources */,
+				83CE29E91A82E9240087C38D /* PPP.jpg in Resources */,
 				71F67B63192C8D6A00E609F1 /* Images.xcassets in Resources */,
 				83CE29E51A82E0B60087C38D /* handG.jpg in Resources */,
+				83CE29E71A82E8D70087C38D /* GGS.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83CE2AA61A8411AE0087C38D /* PushPopViewController.m in Sources */,
 				83CE29E01A82CC4D0087C38D /* RARecipes.m in Sources */,
 				71F67B5D192C8D6A00E609F1 /* main.m in Sources */,
 				83CE29E31A82CD1E0087C38D /* RecipesTableViewDataSource.m in Sources */,
