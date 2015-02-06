@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PushPopViewController : UIViewController 
+@interface RecipeDetailsViewController : UIViewController 
 
 @property (nonatomic,strong)NSIndexPath *detailIndexPath;
 

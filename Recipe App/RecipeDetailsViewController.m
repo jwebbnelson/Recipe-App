@@ -7,14 +7,14 @@
 //
 
 #import "RecipeViewController.h"
-#import "PushPopViewController.h"
+#import "RecipeDetailsViewController.h"
 #import "RARecipes.h"
 
-@interface PushPopViewController ()
+@interface RecipeDetailsViewController ()
 
 @end
 
-@implementation PushPopViewController
+@implementation RecipeDetailsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -46,8 +46,7 @@
     descriptionLabel.numberOfLines = 0;
     [descriptionLabel sizeToFit];
     [scrollView addSubview:descriptionLabel];
-    
-    
+
     
     //Ingredients
     UILabel *ingredientLabel = [[UILabel alloc]initWithFrame:CGRectMake(sideMargin, 220, width - sideMargin, 20)];
@@ -67,11 +66,7 @@
         [scrollView addSubview:volume];
         [scrollView addSubview:ingredients];
     }
-//    
-//    // Directions
-//    UILabel *directions = [[UILabel alloc]initWithFrame:CGRectMake(10, 500, width-10, height)];
-//    [directions setText:[RARecipes directionsAtIndex:self.detailIndexPath.row]];
-    
+  
     [self.view addSubview:scrollView];
 }
 
